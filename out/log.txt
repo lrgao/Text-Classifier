@@ -1,0 +1,30 @@
+05/15/2023 22:44:10 - INFO - __main__ - Namespace(adam_epsilon=1e-08, append_another_bos=True, checkpoint=None, clean_up_spaces=False, dataset='webnlg', debug=False, do_lowercase=False, do_predict=False, do_pretrain=False, do_train=True, eval_period=1000, gradient_accumulation_steps=1, label_file='/home/gaolr/workspace/BERT/data/aspect_label_map.json', learning_rate=0.0001, max_grad_norm=1.0, max_input_length=112, model_name='bart', model_path='/home/gaolr/workspace/pretrained_models/bert-base-chinese', no_lr_decay=False, num_train_epochs=100.0, num_workers=1, output_dir='out/aspect_classifier', predict_batch_size=128, predict_file='/home/gaolr/workspace/bart_glr/data/kobe_200w/valid.json', prefix='', remove_bos=False, save_period=1000, seed=42, task_ratio='[0.4,0.4,0.2]', test_file='/home/gaolr/workspace/bart_glr/data/kobe_200w/test.json', tokenizer_path='/home/gaolr/workspace/pretrained_models/bert-base-chinese', train_batch_size=512, train_file='/home/gaolr/workspace/bart_glr/data/kobe_200w/train_remove_ttv.json', wait_step=10, warmup_proportion=0.01, warmup_steps=1600, weight_decay=0.0)
+05/15/2023 22:44:10 - INFO - __main__ - out/aspect_classifier
+05/15/2023 22:44:10 - INFO - __main__ - Using 4 gpus
+05/15/2023 22:44:26 - INFO - __main__ - Starting training!
+05/15/2023 22:45:13 - INFO - __main__ - Namespace(adam_epsilon=1e-08, append_another_bos=True, checkpoint=None, clean_up_spaces=False, dataset='webnlg', debug=False, do_lowercase=False, do_predict=False, do_pretrain=False, do_train=True, eval_period=1000, gradient_accumulation_steps=1, label_file='/home/gaolr/workspace/BERT/data/aspect_label_map.json', learning_rate=0.0001, max_grad_norm=1.0, max_input_length=112, model_name='bart', model_path='/home/gaolr/workspace/pretrained_models/bert-base-chinese', no_lr_decay=False, num_train_epochs=100.0, num_workers=1, output_dir='out/aspect_classifier', predict_batch_size=128, predict_file='/home/gaolr/workspace/bart_glr/data/kobe_200w/valid.json', prefix='', remove_bos=False, save_period=1000, seed=42, task_ratio='[0.4,0.4,0.2]', test_file='/home/gaolr/workspace/bart_glr/data/kobe_200w/test.json', tokenizer_path='/home/gaolr/workspace/pretrained_models/bert-base-chinese', train_batch_size=512, train_file='/home/gaolr/workspace/bart_glr/data/kobe_200w/train_remove_ttv.json', wait_step=10, warmup_proportion=0.01, warmup_steps=1600, weight_decay=0.0)
+05/15/2023 22:45:13 - INFO - __main__ - out/aspect_classifier
+05/15/2023 22:45:13 - INFO - __main__ - Using 5 gpus
+05/15/2023 22:45:29 - INFO - __main__ - Starting training!
+05/15/2023 23:06:59 - INFO - __main__ - Step 1000 Train loss 0.40 Learning rate 6.25e-05 val acc 94.56% test acc 94.23% on epoch=0
+05/15/2023 23:06:59 - INFO - __main__ - Saving model with best ACC: -100.00% -> 94.56% on epoch=0, global_step=1000
+05/15/2023 23:27:59 - INFO - __main__ - Step 2000 Train loss 0.13 Learning rate 9.99e-05 val acc 94.56% test acc 95.13% on epoch=0
+05/15/2023 23:48:53 - INFO - __main__ - Step 3000 Train loss 0.12 Learning rate 9.97e-05 val acc 95.09% test acc 95.53% on epoch=0
+05/15/2023 23:48:54 - INFO - __main__ - Saving model with best ACC: 94.56% -> 95.09% on epoch=0, global_step=3000
+05/16/2023 00:09:42 - INFO - __main__ - Step 4000 Train loss 0.11 Learning rate 9.94e-05 val acc 95.59% test acc 95.66% on epoch=0
+05/16/2023 00:09:42 - INFO - __main__ - Saving model with best ACC: 95.09% -> 95.59% on epoch=0, global_step=4000
+05/16/2023 00:29:40 - INFO - __main__ - Step 5000 Train loss 0.10 Learning rate 9.92e-05 val acc 96.03% test acc 96.12% on epoch=1
+05/16/2023 00:29:40 - INFO - __main__ - Saving model with best ACC: 95.59% -> 96.03% on epoch=1, global_step=5000
+05/16/2023 00:49:34 - INFO - __main__ - Step 6000 Train loss 0.10 Learning rate 9.89e-05 val acc 95.41% test acc 95.17% on epoch=1
+05/16/2023 01:11:20 - INFO - __main__ - Step 7000 Train loss 0.09 Learning rate 9.87e-05 val acc 96.17% test acc 96.28% on epoch=1
+05/16/2023 01:11:20 - INFO - __main__ - Saving model with best ACC: 96.03% -> 96.17% on epoch=1, global_step=7000
+05/16/2023 01:33:10 - INFO - __main__ - Step 8000 Train loss 0.09 Learning rate 9.84e-05 val acc 95.47% test acc 95.82% on epoch=1
+05/16/2023 01:54:58 - INFO - __main__ - Step 9000 Train loss 0.09 Learning rate 9.82e-05 val acc 95.88% test acc 95.91% on epoch=2
+05/16/2023 02:16:27 - INFO - __main__ - Step 10000 Train loss 0.08 Learning rate 9.79e-05 val acc 95.84% test acc 96.03% on epoch=2
+05/16/2023 02:38:11 - INFO - __main__ - Step 11000 Train loss 0.09 Learning rate 9.77e-05 val acc 96.14% test acc 96.14% on epoch=2
+05/16/2023 02:58:32 - INFO - __main__ - Step 12000 Train loss 0.08 Learning rate 9.75e-05 val acc 96.06% test acc 96.22% on epoch=2
+05/16/2023 03:13:36 - INFO - __main__ - Step 13000 Train loss 0.08 Learning rate 9.72e-05 val acc 95.99% test acc 96.07% on epoch=3
+05/16/2023 03:28:40 - INFO - __main__ - Step 14000 Train loss 0.07 Learning rate 9.70e-05 val acc 96.17% test acc 96.08% on epoch=3
+05/16/2023 03:43:39 - INFO - __main__ - Step 15000 Train loss 0.08 Learning rate 9.67e-05 val acc 95.77% test acc 96.18% on epoch=3
+05/16/2023 03:58:40 - INFO - __main__ - Step 16000 Train loss 0.09 Learning rate 9.65e-05 val acc 95.61% test acc 95.78% on epoch=3
+05/16/2023 04:13:42 - INFO - __main__ - Step 17000 Train loss 0.08 Learning rate 9.62e-05 val acc 96.06% test acc 96.24% on epoch=4
