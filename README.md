@@ -31,4 +31,4 @@ We also provide the inference scripts to directly acquire the generation results
 bash infer_bert.sh
 ```
 
-In the scripts, `--output_dir` denotes the directory of model checkpoint used for inference. The generated results are also saved in this directory.
+In the scripts, `--output_dir` denotes the directory of model checkpoint used for inference. The classified results are also saved in this directory.
