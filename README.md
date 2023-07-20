@@ -13,7 +13,7 @@ pip install -r requirements.txt
 
 ### Datasets
 
-The raw data of our datasets are from the [KOBE](https://arxiv.org/abs/1903.12457). You can download the pre-processed datasets used in our paper on [Google Drive](https://drive.google.com/drive/folders/1xKaIHIm8TLBu6IlTVMFYX4zge2zM3lwi?usp=sharing).
+The raw data of our datasets are from the [KOBE](https://arxiv.org/abs/1903.12457). You can download the pre-processed datasets used in this project on [Google Drive](https://drive.google.com/drive/folders/1xKaIHIm8TLBu6IlTVMFYX4zge2zM3lwi?usp=sharing).
 
 ### Fine-tuning
 
