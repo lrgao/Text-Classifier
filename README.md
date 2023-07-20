@@ -1,7 +1,7 @@
 # Text Classifier
 ## Introduction
 
-This is a text classifier based on [BERT](https://arxiv.org/abs/1810.04805). This project is a PyTorch implementation of our work.
+This is a Chinese text classifier based on [BERT](https://arxiv.org/abs/1810.04805). This project is a PyTorch implementation of our work.
 
 ## Dependencies
 
